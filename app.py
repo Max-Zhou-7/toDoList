@@ -66,5 +66,7 @@ def storage():
 #     conn = sqlite3.connect('database.db')
 #     c = conn.cursor()
     
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
+
+app = app
