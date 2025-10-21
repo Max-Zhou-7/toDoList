@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify, flash
 import json
-import sqlite3
 
+app = Flask(__name__, template_folder='../templates')
 app = Flask(__name__)
 
 items = []
@@ -69,4 +69,4 @@ def storage():
 # if __name__ == "__main__":
 #     app.run()
 
-app = app
+handler = app
