@@ -1,0 +1,5 @@
+1. type and hit enter to add
+2. two section: todo and done
+3. delete for both of them
+4. finish to move from todo to done
+5. undo to move from done to todo
